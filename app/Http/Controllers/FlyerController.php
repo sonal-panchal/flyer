@@ -48,6 +48,7 @@ class FlyerController extends Controller
 	 */
 	public function store(Requests\FlyerRequest $request)
 	{
+		
 
 		Flyer::create($request->all());
 

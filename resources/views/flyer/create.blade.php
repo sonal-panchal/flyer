@@ -34,6 +34,7 @@
         <fieldset class="form-group">
             <label for="street">Street:</label>
             <input type="text" class="form-control" id="street" name="street" placeholder="Enter Street">
+            <input type="hidden" name="user_id" value="{!! \Illuminate\Support\Facades\Auth::id() !!}">
         </fieldset>
         <fieldset class="form-group">
             <label for="city">City</label>
