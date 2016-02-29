@@ -6,9 +6,7 @@
         <li><a href="#contact">Contact</a></li>
 
     @endif
-    grdsefgdfs
-    fdbfd
-    dfdsgdgfg
+
 @endsection
 @section('content')
     <div class="container">
