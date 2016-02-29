@@ -6,7 +6,7 @@
         <li><a href="#contact">Contact</a></li>
 
     @endif
-htftghnfg
+
 
 @endsection
 @section('content')
