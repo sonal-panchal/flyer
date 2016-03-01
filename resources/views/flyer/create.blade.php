@@ -2,7 +2,7 @@
 @extends('header')
 @section('nav')
     @if (Auth::check())
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="../create">Create Flyer</a></li>
         <li><a href="{!! url('show/1') !!}">Show Flyer</a></li>
         <li><a href="#contact">Contact</a></li>
 
